@@ -21,6 +21,10 @@ header {
     vertical-align: middle;
 }
 
+.arrow {
+    margin-left: 10px;
+}
+
 .h1 {
     display: inline-block;
     vertical-align: middle;
@@ -29,6 +33,24 @@ header {
 
 ul {
     list-style-type: none;
+}
+
+.checkmark {
+    border-radius: 20px;
+    border: 1px solid green;
+    padding: 5px 5px;
+    vertical-align: middle;
+    background-color: transparent;
+    margin-right: 10px;
+}
+
+.x-mark {
+    border-radius: 20px;
+    border: 1px solid red;
+    padding: 5px 5px;
+    vertical-align: middle;
+    background-color: transparent;
+    margin-right: 10px;
 }
 
 .tag{
