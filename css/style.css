@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f6f8f9;
+}
+
+header {
+    background-color: white;
+}
+
+.h1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 40px;
+    background-color: white;
+}
+
+header {
+    background-color: white;
+    margin-bottom: 3rem;
+}
+
+.buttons {
+    background-color: white;
+    padding: 6px 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#blue-button {
+    background-color: rgb(27, 156, 225);
+    color: white;
+    border-color: transparent;
+}
+
+#transparent-button {
+    border-color: black;
+}
+
+/* non funziona */
+.list {
+    background-color: white;
+}
+
+.logo {
+    vertical-align: middle;
+}
+
+main {
+    margin-left: 200px;
+    background-color: white;
+}
+
+li {
+    padding: 1rem;
+    font-size: 18px;
+}
+
+h3 {
+    margin-top: 1rem;
+    font-size: 25px;
+}
