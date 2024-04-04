@@ -2,6 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+main {
+    margin: 0 auto;
+    width: 800px;
+}
+
+body {
     background-color: #f6f8f9;
 }
 
@@ -24,9 +32,7 @@ header {
     font-size: 15px;
     color: white;
     margin-left: 20px;
-    padding: 2rem 5rem;
-    height: 2rem;
-    width: 100px;
+    padding: 5px 20px;
     display: inline-block;
     vertical-align: middle;
 }
@@ -72,13 +78,18 @@ header {
     border-color: transparent;
 }
 
-#transparent-button {
-    border-color: black;
+button {
+    margin: 20px;
 }
 
-/* non funziona */
+#transparent-button {
+    border-color: black;
+    margin-top: 10px;
+}
+
 .list {
     background-color: white;
+    margin-top: 20px;
 }
 
 main {
@@ -87,15 +98,13 @@ main {
 }
 
 li {
-    padding: 1rem;
+    padding: 0.5rem;
     font-size: 18px;
     background-color: white;
 }
 
-/* non prende il colore */
 h3 {
     margin-top: 1rem;
     font-size: 25px;
-    background-color: #f6f8f9;
     vertical-align: middle;
 }
